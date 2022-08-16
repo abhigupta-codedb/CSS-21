@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+:root {
+  --Pale-blue: hsl(225, 100%, 94%);
+  --Bright-blue: hsl(245, 75%, 52%);
+  --Very-pale-blue: hsl(225, 100%, 98%);
+  --Desaturated-blue: hsl(224, 23%, 55%);
+  --Dark-blue: hsl(223, 47%, 23%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--Pale-blue);
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1rem;
+}
+
+.card {
+  margin: 0 auto;
+  width: 450px;
+  background-color: white;
+  color: var(--Desaturated-blue);
+  border-radius: 25px;
+  overflow: hidden;
+}
+.card img {
+  display: block;
+  width: 100%;
+}
+.card .container {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.card .container .title {
+  font-weight: 900;
+  font-size: 2rem;
+  color: var(--Dark-blue);
+}
+.card .container .prod-desc {
+  padding: 1em;
+  line-height: 25px;
+}
+.card .container .plan {
+  display: flex;
+  background-color: var(--Very-pale-blue);
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5em 0;
+  padding: 1em;
+}
+.card .container .plan strong {
+  margin-left: 1em;
+  margin-right: 2.5em;
+  font-weight: 600;
+  color: black;
+}
+.card .container .plan img {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: var(--Pale-blue);
+}
+.card .container .plan button {
+  width: auto;
+  border: none;
+  padding-right: 0;
+  font-weight: 600;
+  cursor: pointer;
+  background: none;
+  color: var(--Bright-blue);
+}
+.card .container .plan button:hover {
+  text-decoration: underline;
+}
+.card .container button {
+  display: block;
+  width: 100%;
+  padding: 1em;
+  margin: 0.5em;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+}
+.card .container button:hover {
+  opacity: 0.8;
+}
+.card .container .proceed {
+  background-color: var(--Bright-blue);
+  color: white;
+  border-radius: 10px;
+}
+.card .container .cancel {
+  width: auto;
+  background-color: white;
+  color: var(--Desaturated-blue);
+}
+.card .container .cancel:hover {
+  text-decoration: underline;
+  color: black;
+}/*# sourceMappingURL=index.css.map */

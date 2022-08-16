@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.parent{
+    height: 70%;
+    border: 24px solid blueviolet;
+}
+
+.child{
+    height: 300px;
+    background: lightblue;
+}
