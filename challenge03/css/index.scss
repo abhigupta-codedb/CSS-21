@@ -21,7 +21,7 @@
     flex-direction: column;
 
     h2{
-        font-size: 2rem;       
+        font-size: 3rem;       
     }
 
     p{
@@ -40,5 +40,9 @@
         padding: 0.5em;
         font-weight: 600;
         border-radius: 30px;
+
+        &:active{
+            background: #23424A;
+        }
     }
 }
